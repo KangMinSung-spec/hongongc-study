@@ -15,7 +15,7 @@ int main(void)
 void my_gets(char *str, int size)  //str은 char 배열, size는 배열의 크기
 {
     int ch;  //getchar 함수의 반환값을 저장할 변수
-    int i = 0;  str 배열의 첨자
+    int i = 0;  //str 배열의 첨자
     
     ch = getchar();  //첫 번째 문자 입력
     while ((ch != '\n') && (i < size -1))
