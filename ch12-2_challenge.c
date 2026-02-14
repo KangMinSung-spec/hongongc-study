@@ -9,22 +9,18 @@ int main(void)
 
     printf("세 단어를 입력 : ");
     scanf("%s %s %s", str1, str2, str3);
-
     if (strcmp(p1, p2) > 0)  // 1. 첫 번째와 두 번째 비교   
     {
         temp = p1; p1 = p2; p2 = temp;
-    }
-    
+    }  
     if (strcmp(p1, p3) > 0)  // 2. 첫 번째와 세 번째 비교
     {
         temp = p1; p1 = p3; p3 = temp;
-    }
-    
+    }   
     if (strcmp(p2, p3) > 0)  // 3. 두 번째와 세 번째 비교
     {
         temp = p2; p2 = p3; p3 = temp;
     }
-
     printf("%s, %s, %s\n", p1, p2, p3);  // 결과 출력
 
     return 0;
