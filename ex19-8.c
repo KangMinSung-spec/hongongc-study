@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void input_data(int *, int *);  //두 정수를 입력하는 함수 선언
+void input_data(int *, int *);  //두 정수를 입력하는 함수 선언 
 double average(int, int);  //평균을 구하는 함수 선언
 
 int main(void)
